@@ -1,0 +1,26 @@
+{
+  "name": "notes-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node node_modules/http-server/bin/http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benlynch1931/notes-app.git"
+  },
+  "author": "Ben Lynch, Mace Akkari, KC Thomas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benlynch1931/notes-app/issues"
+  },
+  "homepage": "https://github.com/benlynch1931/notes-app#readme",
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
+}
