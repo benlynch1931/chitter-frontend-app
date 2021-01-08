@@ -23,9 +23,9 @@ class Peep {
 
   static getSinglePeep(peepID, format, callback = function(data) { Peep.singlePeep = data }) {
     console.log(3)
-    $.getJSON('https://chitter-backend-api-v2.herokuapp.com/peeps', function(data) {
+    $.getJSON('https://chitter-backend-api-v2.herokuapp.com/peeps', function(response) {
       console.log(4)
-      $.each(data, function(idx, info) {
+      $.each(response, function(idx, info) {
         if(info['id'] === parseInt(peepID)) {
           console.log(5)
           callback(new Peep(info['id'], info['body'], info['created_at'], info['updated_at'], info['user'], info['likes']))
