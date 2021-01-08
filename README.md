@@ -1,5 +1,7 @@
 # Chitter
 
+
+
 ## How to install
 
 1. Fork and Clone this repo.
@@ -15,3 +17,12 @@ npm install
 npm start
 ```
 2. Head to `localhost:8080` in your browser
+
+
+## Testing 
+
+1. In terminal, run: 
+```shell
+open SpecRunner.html
+```
+2. This should automatically open Jasmine in your browser
